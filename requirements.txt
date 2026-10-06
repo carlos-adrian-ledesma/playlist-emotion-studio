@@ -1,0 +1,4 @@
+# Playlist Emotion Studio V1.6.1
+# No third-party Python packages are required.
+# The application uses the Python standard library (including tkinter and sqlite3).
+# Python 3.10+ is recommended because the codebase uses modern type-hint syntax.

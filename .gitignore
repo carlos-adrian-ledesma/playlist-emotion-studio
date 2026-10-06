@@ -1,0 +1,44 @@
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Local databases (the repository intentionally ships one sanitized baseline DB)
+*.db
+*.sqlite
+*.sqlite3
+!data/playlist.db
+
+# Runtime / generated output
+*.log
+backups/
+backup/
+respaldos/
+payload/
+dist/
+build/
+*.egg-info/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary / local exports
+*.tmp
+*.temp
+~$*
+playlist_backup_*.db
+biblioteca_completa.csv
+playlist_show.csv

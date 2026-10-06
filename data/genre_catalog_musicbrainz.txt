@@ -1,0 +1,265 @@
+# Catálogo base local de géneros y estilos.
+# La aplicación puede reemplazar/actualizar esta lista con /genre/all de MusicBrainz.
+2 tone
+2-step
+acid house
+acid jazz
+acid rock
+acid techno
+acid trance
+acoustic
+acoustic blues
+acoustic pop
+acoustic rock
+adult contemporary
+afro house
+afro rock
+afro trap
+afrobeat
+afrobeats
+alternative dance
+alternative hip hop
+alternative metal
+alternative pop
+alternative rock
+ambient
+ambient house
+americana
+anarcho-punk
+andean music
+arena rock
+art pop
+art rock
+avant-garde
+bachata
+balada
+balada romántica
+baroque
+baroque pop
+bebop
+big band
+black metal
+bluegrass
+blues
+blues rock
+bolero
+boom bap
+bossa nova
+britpop
+cantautor
+celtic
+chacarera
+chamber music
+chamber pop
+chamame
+chamamé
+chanson
+chicago blues
+chillout
+city pop
+classic rock
+classical
+cloud rap
+club
+contemporary classical
+contemporary folk
+contemporary r&b
+country
+country pop
+country rock
+cuarteto
+cumbia
+cumbia argentina
+cumbia chilena
+cumbia colombiana
+cumbia mexicana
+cumbia peruana
+cumbia pop
+cumbia romántica
+cumbia santafesina
+cumbia sonidera
+cumbia villera
+dance
+dance-pop
+dancehall
+dark ambient
+dark pop
+death metal
+deep house
+disco
+doom metal
+downtempo
+dream pop
+dream trance
+drum and bass
+dub
+dubstep
+easy listening
+edm
+electro
+electro house
+electro pop
+electro swing
+electroclash
+electronic
+electronica
+electropop
+emo
+enka
+eurodance
+europop
+experimental
+film score
+flamenco
+folk
+folk pop
+folk rock
+folklore argentino
+forró
+funk
+funk carioca
+funk metal
+funk rock
+future bass
+g-funk
+gangsta rap
+garage rock
+glam metal
+glam rock
+gospel
+gothic metal
+gothic rock
+grunge
+guarania
+hard bop
+hard rock
+hardcore punk
+heavy metal
+hi-nrg
+hip hop
+house
+huayno
+indie folk
+indie pop
+indie rock
+industrial
+industrial metal
+industrial rock
+instrumental
+j-pop
+j-rock
+jazz
+jazz blues
+jazz fusion
+jazz pop
+jazz rock
+k-pop
+k-rock
+kayōkyoku
+kuduro
+lambada
+latin
+latin alternative
+latin dance
+latin electronic
+latin folk
+latin hip hop
+latin jazz
+latin pop
+latin r&b
+latin rock
+latin soul
+latin trap
+lo-fi
+lo-fi hip hop
+lounge
+mambo
+mariachi
+melodic hardcore
+melodic metal
+melodic rock
+merengue
+metal
+metalcore
+milonga
+minimal techno
+modern rock
+motown
+mpb
+musical theatre
+música andina
+música criolla
+música latina
+neo soul
+neo-classical
+new age
+new wave
+norteño
+nu metal
+nu-disco
+opera
+orchestral
+pop
+pop latino
+pop punk
+pop rap
+pop rock
+post-grunge
+post-hardcore
+post-punk
+power metal
+power pop
+progressive house
+progressive metal
+progressive rock
+progressive trance
+psychedelic pop
+psychedelic rock
+punk
+punk rock
+r&b
+ranchera
+rap
+reggae
+reggae fusion
+reggaeton
+reggaetón
+regional mexican
+rock
+rock and roll
+rock en español
+rock latino
+rockabilly
+rocksteady
+roots reggae
+rumba
+salsa
+samba
+sertanejo
+shoegaze
+singer-songwriter
+ska
+smooth jazz
+soft rock
+son cubano
+soul
+southern rock
+speed metal
+swing
+synth-pop
+synthwave
+tango
+tech house
+techno
+teen pop
+thrash metal
+trap
+trap latino
+trip hop
+tropical
+tropical house
+vallenato
+vocal jazz
+world
+zamba
+zouk
