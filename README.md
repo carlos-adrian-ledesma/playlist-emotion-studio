@@ -54,18 +54,33 @@ Spotify integration stores a user-provided Client ID and uses Authorization Code
 
 See [`docs/integrations.md`](docs/integrations.md) for implementation details.
 
-## Screenshots
+## Screenshots — v1.6.1
 
-Historical screenshots from older releases were intentionally excluded so they are not presented as V1.6.1. The repository is prepared for current captures under `docs/screenshots/`.
+The following screenshots were captured from the actual Playlist Emotion Studio v1.6.1 application using an isolated test database and fictional music records.
 
-Suggested filenames for future V1.6.1 captures:
+The application was rendered in a virtual Linux display environment. These images demonstrate the real user interface, but do not constitute Windows compatibility testing.
 
-- `dashboard.png`
-- `library.png`
-- `scheduler.png`
-- `starmaker.png`
-- `platforms.png`
-- `settings.png`
+### Dashboard & Music Library
+
+| Intelligence Dashboard | Music Library |
+|---|---|
+| ![Dashboard](docs/screenshots/dashboard.png) | ![Music Library](docs/screenshots/library.png) |
+
+### Playlist Planning & StarMaker
+
+| Show / Playlist Scheduler | StarMaker Workspace |
+|---|---|
+| ![Scheduler](docs/screenshots/scheduler.png) | ![StarMaker](docs/screenshots/starmaker.png) |
+
+### Platform Integrations & Settings
+
+| Platform Metadata | Application Settings |
+|---|---|
+| ![Platforms](docs/screenshots/platforms.png) | ![Settings](docs/screenshots/settings.png) |
+
+**Screenshot notes:** External API integrations were not executed during capture. No private accounts, API credentials or personal music databases were used.
+
+[View screenshot documentation](docs/screenshots/README.md)
 
 ## Installation
 
