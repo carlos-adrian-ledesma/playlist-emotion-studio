@@ -1,0 +1,39 @@
+
+name: Playlist Emotion Studio CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  public-baseline:
+    name: Windows / Python ${{ matrix.python-version }}
+    runs-on: windows-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Validate Python syntax
+        run: python -m compileall -q playlist_emotion_studio.py tests
+
+      - name: Run SQLite security regression tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
