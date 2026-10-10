@@ -158,12 +158,31 @@ playlist-emotion-studio/
 
 This release is intentionally a cleanup and publication patch. It normalizes the public project identity, removes historical deployment artifacts and private operational data, and preserves the existing application behavior rather than introducing a broad architectural rewrite.
 
+## Continuous Integration
+
+Playlist Emotion Studio includes automated GitHub Actions checks for the public SQLite baseline.
+
+The Windows CI pipeline runs with Python 3.11 and 3.12 and validates:
+
+- Python source syntax.
+- SQLite database integrity.
+- Empty operational tables in the public database.
+- Unconfigured YouTube and Spotify credentials.
+- Database publication hygiene within the `data/` directory.
+
+**Current validation:** 4/4 baseline tests passed on both supported CI Python versions.
+
+[View GitHub Actions results](https://github.com/carlos-adrian-ledesma/playlist-emotion-studio/actions/workflows/ci.yml)
+
+**Scope:** These tests verify the committed public baseline and Python syntax. They do not constitute complete GUI, integration, security or Windows deployment testing.
+
 ## Roadmap
 
-- Modularize the current single-file codebase into clearly separated UI, persistence and service modules.
-- Add automated unit/integration tests around persistence and external service adapters.
-- Improve packaging/distribution for end users.
-- Add current V1.6.1+ screenshots and release documentation.
+- Separate the public SQLite baseline from the user's private writable database to prevent accidental publication of songs, tokens and credentials.
+- Expand automated regression testing for application persistence, business logic and external service adapters.
+- Modularize the existing single-file application into independently testable UI, persistence and service components.
+- Improve Windows packaging, deployment validation and user documentation.
+- Maintain updated screenshots and release documentation as the application evolves.
 
 ## Author
 
